@@ -80,10 +80,10 @@ WSGI_APPLICATION = 'api_deliverysnk.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'giovanni117',
-        'USER': 'giovanni117_user',
-        'PASSWORD': 'QtD5Q5LptNc6npc5Een9lcsN1xyu8xGY',
-        'HOST': 'dpg-crpq6al6l47c73anisl0-a.oregon-postgres.render.com',
+        'NAME': 'guivanni117',
+        'USER': 'guivanni117_user',
+        'PASSWORD': 'dTCXq2wpsa8x73xKp0x800vC9Va30kCO',
+        'HOST': 'dpg-csknguaj1k6c73bk8pp0-a.oregon-postgres.render.com',
         'PORT': '5432',
     }
 }
