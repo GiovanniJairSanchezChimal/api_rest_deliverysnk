@@ -77,6 +77,7 @@ WSGI_APPLICATION = 'api_deliverysnk.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+"""""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -86,7 +87,19 @@ DATABASES = {
         'HOST': 'dpg-csknguaj1k6c73bk8pp0-a.oregon-postgres.render.com',
         'PORT': '5432',
     }
+}"""
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'dbgiovanni',
+        'USER': 'root',
+        'PASSWORD': 'giovanni123',
+        'HOST': '137.184.195.167',
+        'PORT': '3308',
+    }
 }
+
 
 
 # Password validation
