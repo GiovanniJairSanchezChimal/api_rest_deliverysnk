@@ -79,12 +79,12 @@ WSGI_APPLICATION = 'api_deliverysnk.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'guivanni117',
-        'USER': 'guivanni117_user',
-        'PASSWORD': 'dTCXq2wpsa8x73xKp0x800vC9Va30kCO',
-        'HOST': 'dpg-csknguaj1k6c73bk8pp0-a.oregon-postgres.render.com',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'dbgiovanni',
+        'USER': 'root',
+        'PASSWORD': 'giovanni123',
+        'HOST': '137.184.195.167',
+        'PORT': '3308',
     }
 }
 
